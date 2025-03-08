@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POW Market - Trang Chủ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
 
+    <header>
+        <div class="logo">
+            <h1>TV Market</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button>Tìm</button>
+        </div>
+        <div class="cart">
+            <a href="cart.html">🛒 Giỏ hàng (<span id="cart-count">0</span>)</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Trang Chủ</a></li>
+            <li><a href="#">Sản Phẩm</a></li>
+            <li><a href="#">Khuyến Mãi</a></li>
+            <li><a href="#">Mua Trả Góp</a></li>
+            <li><a href="#">Tin Tức</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+        </ul>
+    </nav>
+
+    <section class="products">
+        <h2>FLASH SALE</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="public/tv1.jpg" alt="Tivi Sony">
+                <h3>Android Tivi Sony 49 inch 4K</h3>
+                <p class="price">8.000.000đ</p>
+                <a href="product.html?id=1" class="details-btn">Xem Chi Tiết</a>
+                <button class="add-to-cart" data-id="1" data-name="Android Tivi Sony 49 inch 4K" data-price="8000000" data-image="public/tv1.jpg">Thêm vào giỏ</button>
+            </div>
+
+            <div class="product">
+                <img src="public/tv2.jpg" alt="Tivi Panasonic">
+                <h3>Tivi LED LG 43 inch</h3>
+                <p class="price">4.300.000đ</p>
+                <a href="product.html?id=2" class="details-btn">Xem Chi Tiết</a>
+                <button class="add-to-cart" data-id="2" data-name="Tivi LED LG 43 inch" data-price="4300000" data-image="public/tv2.jpg">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
